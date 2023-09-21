@@ -2,11 +2,11 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
-stopwordsdic = stopwords.words('portuguese')
-
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('word_tokenize')
+
+stopwordsdic = stopwords.words('portuguese')
 
 def stopwords(texto):
     
