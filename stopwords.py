@@ -25,4 +25,4 @@ def stopwords(texto):
 
 ex = 'eu gosto muito de a minha maçã'
 ex_sem_stopwords = stopwords(ex)
-print(ex_sem_stopwords)
+print(stopwords(ex))
