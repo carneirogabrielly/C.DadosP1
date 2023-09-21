@@ -2,11 +2,11 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
-stopwordsdic = stopwords.words('portuguese')
-
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('word_tokenize')
+
+stopwordsdic = stopwords.words('portuguese')
 
 def stopwords(texto):
     
@@ -25,4 +25,4 @@ def stopwords(texto):
 
 ex = 'eu gosto muito de a minha maçã'
 ex_sem_stopwords = stopwords(ex)
-print(stopwords(ex))
+print(ex_sem_stopwords)
