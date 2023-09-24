@@ -5,4 +5,4 @@ def verifica_performance(planilha_limpa):
 
     porcentagem_concordancia = (count_comparativo / total_elementos) * 100
     
-    return porcentagem_concordancia
+    return 'Há {0}% de concordância entre a classificação manual e automática'.__format__(porcentagem_concordancia)
